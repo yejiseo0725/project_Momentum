@@ -1,8 +1,9 @@
-function sayHello(nameOfPerson, age) {
-    console.log("Hello, my name is " + nameOfPerson + " and I'm " + age);
+const player = {
+    name: "Hayhouse",
+    sayHello: function(otherPersonsName) {
+        console.log("hello! " + otherPersonsName + " nice to meet you! :)");
+    },
 };
 
-sayHello("Troro", 35);
-sayHello("Huntsman", 24);
-sayHello("Hornet", 7);
-
+console.log(player.name);
+player.sayHello("Troro");
