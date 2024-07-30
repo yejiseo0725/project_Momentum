@@ -1,9 +1,7 @@
-const player = {
-    name: "Hayhouse",
-    sayHello: function(otherPersonsName) {
-        console.log("hello! " + otherPersonsName + " nice to meet you! :)");
-    },
-};
+const toBuy = ["potato", "tomato", "pizza"];
 
-console.log(player.name);
-player.sayHello("Troro");
+console.log(toBuy);
+toBuy[2] = "cola";
+console.log(toBuy);
+toBuy.push("tiramisu");
+console.log(toBuy);
