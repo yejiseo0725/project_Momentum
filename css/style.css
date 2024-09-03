@@ -1,0 +1,18 @@
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+span {
+  font-size: 1.5rem;
+}
+span:last-child {
+  font-weight: 600;
+}
